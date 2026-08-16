@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# NIH ChestX-ray14 dataset
+data/nih_chest_xrays/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints / trained weights
+checkpoints/
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+
+# Generated outputs / experiment results
+outputs/
+results/
+runs/
+logs/
+artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
